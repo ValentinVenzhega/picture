@@ -1,0 +1,33 @@
+.main {
+   padding: 45px 0 100px 0;
+   
+   &__title {
+      font-weight: 700;
+      font-size: 24px;
+      padding-bottom: 39px;
+   }
+
+   &__block {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__item {
+      width: 280px;
+      border: 1px solid #E1E1E1;
+      padding-bottom: 24px;
+   }
+
+   &__subtitle {
+      padding-top: 20px;
+      padding-bottom: 22px;
+      text-align: center;
+   }
+
+   &__subblock {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+   }
+
+}

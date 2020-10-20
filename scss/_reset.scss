@@ -1,0 +1,32 @@
+
+body {
+	margin: 0;
+	background: #F6F3F3;
+	color: #343030;
+	font-family: 'Merriweather', serif;
+}
+	
+
+img {
+	max-width: 100%;
+}
+	
+input, button {
+	&:focus {
+		outline: none;
+	}
+}
+	
+a {
+	text-decoration: none;
+	
+}
+	
+input:invalid {
+	box-shadow: none;
+}
+
+li {
+	list-style-type: none;
+}
+	
