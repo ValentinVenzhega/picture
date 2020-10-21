@@ -82,9 +82,17 @@ a {
   color: #343030;
 }
 
-a:hover {
-  color: rgba(39, 34, 34, 0.5);
-  text-decoration: underline;
+a::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #c78030;
+  transition: 0.4s;
+}
+
+a:hover:after {
+  width: 100%;
 }
 
 .main {
